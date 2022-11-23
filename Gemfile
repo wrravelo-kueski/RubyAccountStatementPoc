@@ -38,3 +38,16 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+source 'https://gems.kueski.com:8808/' do
+  gem 'kueski_api_core',                  '~> 1.1', '>= 1.1.2'
+  gem 'kueski_exceptions',                '~> 0.7'
+  gem 'kueski-features',                  '~> 0.1', '>= 0.1.2'
+  gem 'kueski-financial_business_client', '~> 0.45'
+  gem 'kueski-service-kit-rb',            '~> 0.3.0'
+  gem 'mambu-api',                        '~> 3.18'
+  gem 'simple_config',                    '~> 0.2'
+  gem 'simple_logger',                    '~> 0.2'
+end
+
+gem 'active_model_serializers'
