@@ -51,3 +51,4 @@ source 'https://gems.kueski.com:8808/' do
 end
 
 gem 'active_model_serializers'
+gem 'faker'
