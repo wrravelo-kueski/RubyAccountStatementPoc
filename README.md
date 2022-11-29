@@ -1,24 +1,33 @@
-# README
+# Ruby acccount statement POC
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Pre requisites
 
-Things you may want to cover:
+- ruby-2.6.6
 
-* Ruby version
+## Install dependencies
 
-* System dependencies
+```bash
+bundle install
+```
 
-* Configuration
+## Create db
 
-* Database creation
+```bash
+rake db:create
+```
 
-* Database initialization
+```bash
+rake db:migrate
+```
 
-* How to run the test suite
+## Run seed
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+rake db:seed
+```
 
-* Deployment instructions
+## Run server
 
-* ...
+```bash
+rails s
+```
