@@ -45,10 +45,11 @@ source 'https://gems.kueski.com:8808/' do
   gem 'kueski-features',                  '~> 0.1', '>= 0.1.2'
   gem 'kueski-financial_business_client', '~> 0.45'
   gem 'kueski-service-kit-rb',            '~> 0.3.0'
-  gem 'mambu-api',                        '~> 3.18'
   gem 'simple_config',                    '~> 0.2'
   gem 'simple_logger',                    '~> 0.2'
 end
 
 gem 'active_model_serializers'
 gem 'faker'
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'

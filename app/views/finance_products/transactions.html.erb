@@ -1,0 +1,18 @@
+<div><%= @finance_product.user.username %></div>
+
+<table>
+  <tr>
+    <th>Created at</th>
+    <th>Amount</th>
+    <th>Balance</th>
+    <th>ID</th>
+  </tr>
+  <% @transactions.each do |transaction| %>
+    <tr>
+      <td><%= transaction.creationDate %></td>
+      <td><%= transaction.amount %></td>
+      <td><%= transaction.balance %></td>
+      <td><%= transaction.transactionId %></td>
+    </tr>
+  <% end %>
+</table>
