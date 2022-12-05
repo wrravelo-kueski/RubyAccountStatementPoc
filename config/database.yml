@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: RubyAccountStatementPoc_production
-  username: RubyAccountStatementPoc
-  password: <%= ENV['RUBYACCOUNTSTATEMENTPOC_DATABASE_PASSWORD'] %>
+  database: RubyAccountStatementPoc_development
